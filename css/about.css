@@ -1,0 +1,48 @@
+.feature-quality{
+    color: white;
+    background-image: url(../img/bg7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-feature{
+    padding: 12% 10%;
+}
+
+.feature-quality h1{
+    color: white;
+}
+
+.feature-quality p{
+    text-align: justify;
+    width: 53.2%;
+    margin: 0 auto;
+}
+
+.steps{
+    display: flex;
+}
+
+.steps > *{
+    width: 25%;
+    text-align: center;
+    padding: 7% 0;
+}
+
+.step1{
+    background-color: var(--thm-clr1);
+    color: white;
+}
+
+.step2{
+    background-color: white;
+}
+
+.step3{
+    background-color: var(--shd-clr);
+}
+
+.step4{
+    background-color: var(--thm-clr2);
+}

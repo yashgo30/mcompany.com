@@ -1,0 +1,29 @@
+/* These style rules applies to tips.html page */
+.tips{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 2% 5%;
+}
+
+.tips div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5rem 6rem;
+    text-align: center;
+}
+
+.tips .tip1, .tips .tip4{
+    background-color: var(--thm-clr1);
+    color: white;
+}
+
+.tips .tip2, .tips .tip3{
+    background-color: var(--thm-clr2);
+    color: #000;
+}
+
+.tips div h2{
+    margin-bottom: 1rem;
+}
+/* tips.html style rules end here */

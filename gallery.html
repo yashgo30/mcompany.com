@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Moving Company</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utlis.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/navbar.js" defer></script>
+</head>
+
+<body>
+    <header id="top">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="">
+                <h1>Moving Company</h1>
+            </a>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <nav class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="h-p-50">
+            <div class="left">
+                <h1>Photo<br />Gallery</h1>
+            </div>
+            <div class="right">
+                <p>Here are some of our photos from our previous works. We have a great team and they work so hard for the growth of the company. We have delivered many consignments and have worked with many clients.</p>
+            </div>
+        </div>
+        <div class="photos">
+            <img src="img/img1.jpg" alt="Photo 1">
+            <img src="img/img2.jpg" alt="Photo 2">
+            <img src="img/img3.jpg" alt="Photo 3">
+            <img src="img/img4.jpg" alt="Photo 4">
+            <img src="img/img7.jpg" alt="Photo 5">
+            <img src="img/img6.jpg" alt="Photo 6">
+            <img src="img/img5.jpg" alt="Photo 7" style="grid-column: 1 / 3;">
+        </div>
+        <div class="fifth">
+            <div class="text">
+                <h1 class="h1-size">Get Your Free Quote</h1>
+                <p>Fill in the form and we will contact you soon!</p>
+            </div>
+            <div class="form" id="quote1">
+                <form action="#" method="POST">
+                    <label for="from-zip">Moving From Zip Code</label>
+                    <label for="to-zip">Moving To Zip Code</label>
+                    <input type="text" id="from-zip">
+                    <input type="text" id="to-zip">
+                    <label for="date">Moving Date</label>
+                    <label for="rooms">Number of Rooms</label>
+                    <input type="date" name="moving-date" id="date" style="cursor: pointer;">
+                    <select name="" id="rooms" style="cursor: pointer;">
+                        <option value="none" selected> </option>
+                        <option value="studio">Studio</option>
+                        <option value="1-Bedroom">1 Bedroom</option>
+                        <option value="2-Bedroom">2 Bedroom</option>
+                        <option value="3-Bedroom">3 Bedroom</option>
+                        <option value="4-Bedroom">4 Bedroom</option>
+                        <option value="5-Bedroom">5+ Bedroom</option>
+                    </select>
+                    <label for="fnm">First Name</label>
+                    <label for="lnm">Last Name</label>
+                    <input type="text" id="fnm">
+                    <input type="text" id="lnm">
+                    <label for="phone" style="grid-column: 1 / 3;">Phone</label>
+                    <input type="text" id="phone" style="grid-column: 1 / 3;">
+                    <a href="" style="grid-column: 1 / 3;">Submit</a>
+                </form>
+            </div>
+            <div class="form" id="quote2">
+                <form action="#" method="POST" class="responsive-form">
+                    <label for="from-zip">Moving From Zip Code</label>
+                    <input type="text" id="from-zip">
+                    <label for="to-zip">Moving To Zip Code</label>
+                    <input type="text" id="to-zip">
+                    <label for="date">Moving Date</label>
+                    <input type="date" name="moving-date" id="date" style="cursor: pointer;">
+                    <label for="rooms">Number of Rooms</label>
+                    <select name="" id="rooms" style="cursor: pointer;">
+                        <option value="none" selected> </option>
+                        <option value="studio">Studio</option>
+                        <option value="1-Bedroom">1 Bedroom</option>
+                        <option value="2-Bedroom">2 Bedroom</option>
+                        <option value="3-Bedroom">3 Bedroom</option>
+                        <option value="4-Bedroom">4 Bedroom</option>
+                        <option value="5-Bedroom">5+ Bedroom</option>
+                    </select>
+                    <label for="fnm">First Name</label>
+                    <input type="text" id="fnm">
+                    <label for="lnm">Last Name</label>
+                    <input type="text" id="lnm">
+                    <label for="phone" style="grid-column: 1 / 3;">Phone</label>
+                    <input type="text" id="phone" style="grid-column: 1 / 3;">
+                    <a href="#" style="grid-column: 1 / 3;">Submit</a>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <img src="img/logo.png" alt="">
+            <p class="font-roboto">Licence Number: 123-456-7890</p>
+            <p class="font-roboto">&copy; 2024 by Company.</p>
+        </div>
+        <div class="contact">
+            <p>CONTACT</p>
+            <p>Phone: 123-456-7890<br />
+                Email: <a href="mailto: info@mcompany.com">info@mcompany.com</a></p>
+            <p>500 Terry Francois Street, San Francisco, CA 94158</p>
+        </div>
+        <div class="whours">
+            <p>WORKING HOURS</p>
+            <p>Mon - Fri: 8am - 8pm<br />
+                Saturday: 9am - 7pm<br />
+                Sunday: 9am - 8pm</p>
+        </div>
+        <div class="resources">
+            <p>RESOURCES</p>
+            <p><a href="contact.html">Locations</a><br />
+                <a href="tips.html">Tips</a><br />
+                <a href="gallery.html">Gallery</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
