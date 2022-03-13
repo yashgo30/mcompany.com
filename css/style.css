@@ -302,8 +302,7 @@ footer{
 }
 
 footer div{
-    margin: 2rem auto;
-    width: 15%;
+    margin: 2rem;
 }
 
 footer div > *{
